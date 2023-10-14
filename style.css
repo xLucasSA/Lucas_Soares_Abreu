@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+* {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sue Ellen Francisco', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#head h1 {
+    background-color: gray;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 2.188rem;
+}
+
+#menu {
+    width: 100%;
+    background-color: black;
+}
+
+#menu ul {
+    max-width: 500px;
+    list-style: none;
+    background-color: black;
+    font-size: medium;
+}
+
+#menu ul li {
+    display: inline;
+    background-color: black
+}
+
+#menu ul li h2 {
+    display: inline;
+}
+
+#menu ul li h2 a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    transition: background .5s;
+}
+
+#menu ul li h2 a:hover {
+    background-color: gray;
+}
+
+@media screen and (max-width : 550px) {
+    #menu ul {
+        list-style: none;
+        background-color: black;
+        display: contents;
+    }
+
+    #menu ul li {
+        background-color: black;
+        display: flex;
+        font-size: 0.7rem;
+    }
+
+    #menu ul li h2 a {
+        display: inline-block;
+        padding: 0.3rem;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        transition: background .5s;
+    }
+}
+
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+}
+
+footer a img {
+    max-height: 2.65rem;
+    float: right;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: black;
+}
+
+footer p {
+    float: left;
+    position: fixed;
+    background-color: black;
+    color: white;
+    padding: 8px 8px 8px 5px;
+    margin-left: 8%;
+}
+
+#linkedin {
+    margin-right: 8%;
+}
