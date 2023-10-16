@@ -1,31 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 * {
-    background-color: #fff;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sue Ellen Francisco', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: 'Press Start 2P', sans-serif, 'Sue Ellen Francisco', 'Segoe UI', Tahoma, Verdana;
 }
 
 #head h1 {
     background-color: gray;
     color: #fff;
     width: 100%;
+    height: 10%;
+    padding: 0.5%;
     text-align: center;
-    font-size: 2.188rem;
+    font-size: 1.5rem;
 }
 
 #menu {
     width: 100%;
     background-color: black;
+    top: 10%;
+    margin-bottom: 2.5%;
 }
 
 #menu ul {
-    max-width: 500px;
+    max-width: 700px;
     list-style: none;
     background-color: black;
-    font-size: medium;
+    font-size: 0.5rem;
 }
 
 #menu ul li {
@@ -50,7 +53,7 @@
     background-color: gray;
 }
 
-@media screen and (max-width : 550px) {
+@media screen and (max-width : 650px) {
     #menu ul {
         list-style: none;
         background-color: black;
@@ -79,25 +82,22 @@ footer {
     position: fixed;
     bottom: 0px;
     background-color: black;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 footer a img {
     max-height: 2.65rem;
     float: right;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     background-color: black;
 }
 
 footer p {
     float: left;
-    position: fixed;
     background-color: black;
     color: white;
-    padding: 8px 8px 8px 5px;
-    margin-left: 8%;
-}
-
-#linkedin {
-    margin-right: 8%;
+    margin-top: 1rem;
+    font-size: x-small;
 }

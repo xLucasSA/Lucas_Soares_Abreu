@@ -1,0 +1,46 @@
+#foto {
+    width: 76%;
+    margin-left: 12%;
+    margin-bottom: 1%;
+    display: grid;
+    align-items: center;
+}
+
+#foto img {
+    width: 35rem;
+    border-radius: 8%;
+}
+
+#texto {
+    margin-left: 12%;
+    width: 76%;
+    padding-bottom: 8%;
+}
+
+#texto p {
+    text-align: justify;
+    font-size: 0.9rem;
+    line-height: calc(1.3rem*1.5);
+    font-weight: 100;
+}
+
+@media screen and (max-width : 1200px) {
+    #foto img {
+        width: 30rem;
+        border-radius: 8%;
+    }
+}
+
+@media screen and (max-width : 10000px) {
+    #foto img {
+        width: 25rem;
+        border-radius: 8%;
+    }
+}
+
+@media screen and (max-width : 680px) {
+    #foto img {
+        width: 20rem;
+        border-radius: 8%;
+    }
+}
