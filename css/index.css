@@ -19,7 +19,7 @@
 
 #texto p {
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: calc(1.3rem*1.5);
     font-weight: 100;
 }

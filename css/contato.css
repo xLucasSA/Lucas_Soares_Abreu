@@ -1,0 +1,44 @@
+div,
+table {
+    font-size: 0.8rem;
+    line-height: calc(1.3rem*1.5);
+    margin-left: 12%;
+    margin-right: 12%;
+    display: grid;
+    place-items: center;
+}
+
+table {
+    text-align: center;
+}
+
+div {
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+#enviar {
+    background-color: #4CAF50;
+    padding: 0.5rem;
+}
+
+input,
+textarea {
+    border-radius: 8px;
+}
+
+input {
+    padding: 1.5%;
+}
+
+@media screen and (max-width: 550px) {
+    table {
+        display: block;
+        text-align: center;
+    }
+
+    table td,
+    tr {
+        display: inline-block;
+    }
+}
