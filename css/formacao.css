@@ -54,9 +54,10 @@ table ul {
 
 @media screen and (max-width:1000px) {
     table {
-        margin-top: -4%;
         display: block;
         text-align: justify;
+        margin-bottom: 15%;
+        margin-top: 15%;
     }
 
     table td,
