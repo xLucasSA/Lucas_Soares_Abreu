@@ -1,3 +1,4 @@
+/* Estilização para a foto */
 #foto {
     width: 76%;
     margin-left: 12%;
@@ -11,6 +12,7 @@
     border-radius: 8%;
 }
 
+/* Estilização para o texto */
 #texto {
     margin-left: 12%;
     width: 76%;
@@ -24,6 +26,7 @@
     font-weight: 100;
 }
 
+/* Ajustes para responsividade */
 @media screen and (max-width : 1200px) {
     #foto img {
         width: 30rem;

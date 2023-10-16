@@ -1,3 +1,4 @@
+/* Alinhamento do conteúdo da página */
 table {
     margin-left: 12%;
     margin-right: 12%;
@@ -9,6 +10,7 @@ table {
     border-collapse: collapse;
 }
 
+/* Determinação de bordas e ajustes */
 table th,
 td {
     border-bottom: 2px solid black;
@@ -52,6 +54,7 @@ table ul {
     font-size: 0.65rem;
 }
 
+/* Ajustes para responsividade */
 @media screen and (max-width:1000px) {
     table {
         display: block;

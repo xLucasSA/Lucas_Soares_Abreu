@@ -1,12 +1,14 @@
 const projetos = document.getElementById("conteudo")
-
+// Função que consome a API do GitHub
 async function buscarProjetos(){
     const response = await fetch("https://api.github.com/users/xLucasSA/repos")
+    // Retorna Erro se houver falha no carregamento dos dados
     if(!response.ok){
         throw new Error(response.status)
     }
-
+    // Converte os dados para formato json
     const conteudo = await response.json()
+    // Adiciona cada elemento do json no padrão do html
     conteudo.forEach(element => {
         const { name, html_url, language, created_at, description } = element
 

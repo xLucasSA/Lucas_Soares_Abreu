@@ -1,3 +1,4 @@
+/* Alinhamento do corpo da página */
 div,
 table {
     font-size: 0.8rem;
@@ -8,13 +9,15 @@ table {
     place-items: center;
 }
 
-table {
-    text-align: center;
-}
-
+/* Estilo do texto e título da página */
 div {
     text-align: justify;
     margin-bottom: 2%;
+}
+
+/* Estilo do FORM */
+table {
+    text-align: center;
 }
 
 #enviar {
@@ -31,6 +34,7 @@ input {
     padding: 1.5%;
 }
 
+/* Ajustes para responsividade */
 @media screen and (max-width: 550px) {
     table {
         display: block;
