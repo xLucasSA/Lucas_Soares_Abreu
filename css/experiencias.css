@@ -1,13 +1,13 @@
-#titulo {
+.titulos {
     text-align: center;
     font-size: 1rem;
 }
 
 /* Ajustes para alinhamento da página */
-#conteudo {
+#projetos {
     margin-left: 12%;
     margin-right: 12%;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     margin-top: 1.5%;
     border: none;
     font-size: 0.8rem;
@@ -45,4 +45,33 @@ a,
 .projetos:hover {
     background-color: black;
     color: white;
+}
+
+.experiencias {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 3%;
+    margin-top: 1.5%;
+    border: none;
+    border-top: 2px solid black;
+    border-radius: 0;
+    font-size: 0.8rem;
+    line-height: calc(1.3rem*1.5)
+}
+
+.experiencias h3 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.experiencias i {
+    font-size: 0.7rem;
+    color: gray;
+    line-height: 1rem;
+}
+
+.experiencias ul {
+    list-style-type: none;
+    text-align: justify;
+    line-height: calc(1.3rem*1.5)
 }

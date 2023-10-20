@@ -1,10 +1,10 @@
-const projetos = document.getElementById("conteudo")
+const projetos = document.getElementById("projetos")
 // Função que consome a API do GitHub
 async function buscarProjetos(){
     const response = await fetch("https://api.github.com/users/xLucasSA/repos")
     // Retorna Erro se houver falha no carregamento dos dados
     if(!response.ok){
-        throw new Error(response.status)
+        throw new Error(response.status, response.statusText)
     }
     // Converte os dados para formato json
     const conteudo = await response.json()
