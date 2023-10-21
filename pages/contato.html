@@ -38,14 +38,14 @@
         <p>Caso queira, deixe uma mensagem que entraremos em contato!</p>
     </div>
     <!-- Formulário para contato -->
-    <form action="mailto:lsdeabreu@gmail.com?body=" id="formulario">
+    <form id="formulario">
         <table>
             <tr>
                 <td>
                     <label for="nome">Nome:</label>
                 </td>
                 <td>
-                    <input type="text" placeholder="Digite o seu nome" name="nome" id="nome">
+                    <input type="text" placeholder="Digite o seu nome" id="assunto" required>
                 </td>
             </tr>
             <tr>
@@ -53,7 +53,7 @@
                     <label for="email">E-mail:</label>
                 </td>
                 <td>
-                    <input type="email" placeholder="Digite um e-mail" name="email" id="email">
+                    <input type="email" placeholder="Digite um e-mail" id="email">
                 </td>
             </tr>
             <tr>
@@ -61,12 +61,12 @@
                     <label for="mensagem">Mensagem:</label>
                 </td>
                 <td>
-                    <textarea name="body" id="mensagem"></textarea>
+                    <textarea id="corpo" required></textarea>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="submit" value="Enviar" id="enviar">
+                    <input type="submit" value="Enviar" id="enviar" onclick="enviarEmail()">
                 </td>
             </tr>
         </table>
@@ -80,6 +80,7 @@
         <a href="wa.me/+5538992101911"><img src="../images/whatsapp.png" alt="Whatsapp"></a>
         <a href="https://github.com/xLucasSA"><img src="../images/github.png" alt="Github"></a>
     </footer>
+    <script src="../js/contato.js"></script>
 </body>
 
 </html>

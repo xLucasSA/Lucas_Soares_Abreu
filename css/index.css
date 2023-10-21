@@ -26,6 +26,10 @@
     font-weight: 100;
 }
 
+u {
+    font-weight: 600;
+}
+
 /* Ajustes para responsividade */
 @media screen and (max-width : 1200px) {
     #foto img {
